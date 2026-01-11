@@ -11,6 +11,7 @@ nav a {
 
 main {
     max-width: 840px;
+    text-align: center;
 }
 
 main img {
@@ -50,6 +51,7 @@ p {
     padding: 0;
     background-color: darkblue;
     color: yellow;
+    text-align: center;
 }
 
 footer {
