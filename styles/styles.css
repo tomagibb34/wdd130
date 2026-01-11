@@ -7,10 +7,13 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-align: center;
 }
 
 main {
     max-width: 840px;
+    margin: 0 auto;
+    align-content: center;
     text-align: center;
 }
 
@@ -21,11 +24,12 @@ main img {
 
 h1 {
     color: darkblue;
+    text-align: center;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: 0 auto;
     border: 1px solid rgba(0, 0, 0, 0.2);
     /* 1 */
     padding: 1rem;
@@ -40,7 +44,7 @@ aside img {
 }
 
 img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
