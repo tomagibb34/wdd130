@@ -9,12 +9,33 @@ nav a {
     padding: 20px;
 }
 
+main {
+    max-width: 840px;
+}
+
+main img {
+    width: 250px;
+    height: auto;
+}
+
 h1 {
     color: darkblue;
 }
 
-h2 {
-    color: lightblue;
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* 1 */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 250px;
+    height: auto;
 }
 
 img {
@@ -26,7 +47,13 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
     background-color: darkblue;
     color: yellow;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
 }
