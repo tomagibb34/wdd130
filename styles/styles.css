@@ -2,6 +2,8 @@
     --primary-background-color: darkblue;
     --alternative-background-color: white;
     --next-alternative-background-color: black;
+    --box-shadow-color: grey;
+    --p-base-color: yellow;
     --align-center: center;
     --global-auto: auto;
 }
@@ -25,11 +27,6 @@ main {
     text-align: var(--align-center);
 }
 
-main img {
-    width: 200px;
-    height: var(--global-auto);
-}
-
 h1 {
     color: var(--primary-background-color);
     text-align: var(--align-center);
@@ -50,18 +47,18 @@ aside img {
     height: var(--global-auto);
 }
 
-img {
+main img {
     width: 200px;
     height: var(--global-auto);
     border: 1px solid var(--next-alternative-background-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--box-shadow-color);
 }
 
 p {
     padding: 0;
     background-color: var(--primary-background-color);
-    color: yellow;
+    color: var(--p-base-color);
     text-align: var(--align-center);
 }
 
