@@ -1,0 +1,72 @@
+:root {
+    --primary-background-color: darkblue;
+    --alternative-background-color: white;
+    --next-alternative-background-color: black;
+    --align-center: center;
+    --global-auto: auto;
+}
+
+nav {
+    background-color: var(--primary-background-color);
+    padding: 10px;
+}
+
+nav a {
+    color: var(--alternative-background-color);
+    display: block;
+    padding: 20px;
+    text-align: var(--align-center);
+}
+
+main {
+    max-width: 840px;
+    margin: 0 var(--global-auto);
+    align-content: var(--align-center);
+    text-align: var(--align-center);
+}
+
+main img {
+    width: 200px;
+    height: var(--global-auto);
+}
+
+h1 {
+    color: var(--primary-background-color);
+    text-align: var(--align-center);
+}
+
+aside {
+    width: 20rem;
+    margin: 0 var(--global-auto);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: var(--alternative-background-color);
+    color: var(--next-alternative-background-color);
+    text-align: var(--align-center);
+}
+
+aside img {
+    width: 200px;
+    height: var(--global-auto);
+}
+
+img {
+    width: 200px;
+    height: var(--global-auto);
+    border: 1px solid var(--next-alternative-background-color);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 0;
+    background-color: var(--primary-background-color);
+    color: yellow;
+    text-align: var(--align-center);
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid var(--next-alternative-background-color);
+    text-align: var(--align-center);
+}
