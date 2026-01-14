@@ -1,69 +1,59 @@
-:root {
-    --primary-background-color: darkblue;
-    --alternative-background-color: white;
-    --next-alternative-background-color: black;
-    --box-shadow-color: grey;
-    --p-base-color: yellow;
-    --align-center: center;
-    --global-auto: auto;
-}
-
 nav {
-    background-color: var(--primary-background-color);
+    background-color: darkblue;
     padding: 10px;
 }
 
 nav a {
-    color: var(--alternative-background-color);
+    color: white;
     display: block;
     padding: 20px;
-    text-align: var(--align-center);
+    text-align: center;
 }
 
 main {
     max-width: 840px;
-    margin: 0 var(--global-auto);
-    align-content: var(--align-center);
-    text-align: var(--align-center);
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
 }
 
 h1 {
-    color: var(--primary-background-color);
-    text-align: var(--align-center);
+    color: darkblue;
+    text-align: center;
 }
 
 aside {
     width: 20rem;
-    margin: 0 var(--global-auto);
+    margin: 0 auto;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: var(--alternative-background-color);
-    color: var(--next-alternative-background-color);
-    text-align: var(--align-center);
+    background-color: white;
+    color: black;
+    text-align: center;
 }
 
 aside img {
     width: 200px;
-    height: var(--global-auto);
+    height: auto;
 }
 
 main img {
     width: 200px;
-    height: var(--global-auto);
-    border: 1px solid var(--next-alternative-background-color);
+    height: auto;
+    border: 1px solid Black;
     padding: 2px;
-    box-shadow: 0 0 30px var(--box-shadow-color);
+    box-shadow: 0 0 30px grey;
 }
 
 p {
     padding: 0;
-    background-color: var(--primary-background-color);
-    color: var(--p-base-color);
-    text-align: var(--align-center);
+    background-color: darkblue;
+    color: yellow;
+    text-align: center;
 }
 
 footer {
     margin-top: 1em;
-    border-top: 1px solid var(--next-alternative-background-color);
-    text-align: var(--align-center);
+    border-top: 1px solid white;
+    text-align: center;
 }
