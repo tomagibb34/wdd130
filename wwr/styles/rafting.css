@@ -50,6 +50,7 @@ article {
 }
 
 .socialmedia a {
+    margin: 0 auto;
     text-decoration: none;
     box-sizing: border-box;
     box-shadow: #e9c46a;
@@ -78,6 +79,7 @@ h1 {
 }
 
 .hero article img {
+    /*  position: absolute; */
     float: right;
     width: 200px;
 }
