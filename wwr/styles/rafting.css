@@ -58,19 +58,17 @@ article {
     position: relative;
 }
 
-.hero article h2 {
-    position: absolute;
+.hero article {
     width: 100%;
     height: auto;
 }
 
 .hero article img {
-    position: absolute;
     float: right;
     width: 150px;
 }
 
-.hero h1 {
+.hero article h1 {
     position: absolute;
     top: 20px;
     width: 100%;
