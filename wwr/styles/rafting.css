@@ -42,6 +42,10 @@ h2 {
     text-align: center;
 }
 
+nav ul li a {
+    color: var(--secondary-color);
+}
+
 nav,
 p,
 section,
@@ -67,7 +71,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent-color);
-    color: #fff;
+    color: white;
     /* white text - make sure there is enough contrast with the background-color */
 }
 
