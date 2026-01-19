@@ -59,11 +59,13 @@ article {
 }
 
 .hero article {
+    position: absolute;
     width: 100%;
     height: auto;
 }
 
 .hero article img {
+    position: absolute;
     float: right;
     width: 150px;
 }
