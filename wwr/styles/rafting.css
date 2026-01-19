@@ -58,7 +58,8 @@ article {
     position: relative;
 }
 
-.hero article {
+.hero article h2 {
+    position: absolute;
     width: 100%;
     height: auto;
 }
