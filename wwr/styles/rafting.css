@@ -63,6 +63,11 @@ article {
     height: auto;
 }
 
+.hero article img {
+    float: right;
+    width: 150px;
+}
+
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -73,11 +78,6 @@ article {
     background-color: var(--accent-color);
     color: white;
     /* white text - make sure there is enough contrast with the background-color */
-}
-
-.hero article img {
-    float: right;
-    width: 150px;
 }
 
 .socialmedia a {
