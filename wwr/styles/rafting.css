@@ -37,7 +37,7 @@ h2 {
 }
 
 nav ul li a {
-    color: var(---accent2-color);
+    color: var(--secondary-color);
 }
 
 nav,
