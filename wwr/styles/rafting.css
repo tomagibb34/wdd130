@@ -83,6 +83,6 @@ article {
 
 .socialmedia a {
     text-decoration: none;
-    box-sizing: 30px;
-    width: 15%;
+    box-sizing: border-box;
+    width: 30px;
 }
