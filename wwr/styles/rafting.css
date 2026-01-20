@@ -1,7 +1,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --secondary-color: #f4a261;
+    --secondary-color: #fab37a;
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
@@ -28,7 +28,7 @@ body {
 header {
     font-family: var(--heading-font);
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 h1 {
