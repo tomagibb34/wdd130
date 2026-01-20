@@ -12,9 +12,16 @@
 }
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    max-width: 840px;
 }
 
 header {
@@ -22,24 +29,10 @@ header {
     color: var(--accent2-color);
 }
 
-body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
-}
-
-header,
-main,
-footer {
-    width: 840px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
-    text-align: center;
 }
 
 nav ul li a {
@@ -53,6 +46,8 @@ article {
     margin: 16px;
     padding: 8px;
 }
+
+/* Class Selectors */
 
 .hero {
     position: relative;
