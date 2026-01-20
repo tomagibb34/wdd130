@@ -30,10 +30,14 @@ header {
     color: var(--accent2-color);
 }
 
-h1,
+h1 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 nav ul li a {
@@ -79,6 +83,6 @@ article {
 
 .socialmedia a {
     text-decoration: none;
-    box-sizing: border-box;
+    box-sizing: 30px;
     width: 15%;
 }
