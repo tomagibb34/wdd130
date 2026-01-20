@@ -34,7 +34,7 @@ header {
 h1 {
     font-family: var(--heading-font);
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 h2 {
