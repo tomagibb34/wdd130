@@ -61,6 +61,12 @@ article {
     position: relative;
 }
 
+.hero img {
+    display: block;
+    width: 15%;
+    height: auto;
+}
+
 .hero article {
     position: absolute;
     width: 100%;
